@@ -1,0 +1,5 @@
+[run]
+include = test_buildpack_geolite2/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin

@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=test_buildpack_geolite2
+POSTGRES_USER=kokEBVBjVBawvvWLLjeGUkDiHIPHAscp
+POSTGRES_PASSWORD=mGUur9reeGTmknnhfgYgt1bN7uBfuKtdCKDtL9bF9Hk96rhzQvLF2uhyZCE0hBzW
