@@ -151,3 +151,8 @@ LOGGING = {
 
 # Your stuff...
 # ------------------------------------------------------------------------------
+
+GEOIP_PATH=env('GEOIP_GEOLITE2_PATH', default=None)
+GEOIP_CITY=env('GEOIP_GEOLITE2_CITY_FILENAME', default=None)
+GEOIP_COUNTRY=env('GEOIP_GEOLITE2_COUNTRY_FILENAME', default=None)
+
