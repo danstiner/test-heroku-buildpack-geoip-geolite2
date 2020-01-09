@@ -180,6 +180,7 @@ TEMPLATES = [
                 "django.template.context_processors.tz",
                 "django.contrib.messages.context_processors.messages",
                 "test_buildpack_geolite2.utils.context_processors.settings_context",
+                "test_buildpack_geolite2.utils.context_processors.geoip_context",
             ],
         },
     }
