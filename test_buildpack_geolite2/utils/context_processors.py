@@ -4,7 +4,7 @@ from django.contrib.gis.geoip2 import GeoIP2
 geoip = GeoIP2()
 
 def geoip_context(request):
-    return {"geoip_city": geoip.city(client_ip(request)}
+    return {"geoip_city": geoip.city(client_ip(request))}
 
 def client_ip(request):
     x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
